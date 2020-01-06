@@ -79,3 +79,10 @@ What is NOSQL: Non relation database that does not require fixed schema, avoids 
 
 
 Topic 3: SQL data normalization/ de-normalization.
+Data normalization: A method to avoid the data redunduncy by breaking a single table into multiple relational tables. Have to rely on table joins to get complex query data. 
+Normalization is a database design technique which organizes tables in a manner that reduces redundancy and dependency of data.
+It divides larger tables to smaller tables and links them using relationships.
+
+Data de-normalization: All the relation data is stored in single table. Avoid table joins. Avoids relational data base. Increses redundent data.
+
+Topic 4. NOSQL DB example: Cassandra
