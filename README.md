@@ -51,3 +51,31 @@ Apache Cassandra,
 MongoDB,
 dynamoDB,
 CouchBase
+
+
+
+Topic 2: Advantages/disadvantages of NO-SQL over SQL.
+
+In almost all situations SQL databases are vertically scalable. This means that you can increase the load on a single server by increasing things like RAM, CPU or SSD. But on the other hand NoSQL databases are horizontally scalable. This means that you handle more traffic by sharding, or adding more servers in your NoSQL database. It is similar to adding more floors to the same building versus adding more buildings to the neighborhood. Thus NoSQL can ultimately become larger and more powerful, making these databases the preferred choice for large or ever-changing data sets.
+
+
+(a) Advantages: 
+- No fixed schema. (i.e. very easy to add new property to object already in the production without having to worry about existing objects/rows in the production DB. Similarly very easy to drop one of the existing property of object/row in the production) 
+- Scales easily.
+- No join operations required, all the data at single place.
+- NoSQL databases can be document based, key-value pairs, graph databases whereas SQL databases are table based databases
+- NOSQL is more suitable for solving data availability problem. Whereas SQL is more suitable for solving ACID.
+Disadvantages:
+- NOSQL is not an ideal choice for the complex query intensive environment.
+- SQL follows ACID( Atomicity, Consistency, Isolation, and Durability) is a standard for RDBMS. Whereas NOSQL follows BASE ( Basically Available, Soft state, Eventually Consistent) is a model of many NoSQL systems
+
+
+
+What is SQL:
+Structured Query language (SQL) pronounced as "S-Q-L" or sometimes as "See-Quel" is the standard language for dealing with Relational Databases. A relational database defines relationships in the form of tables.
+SQL programming can be effectively used to insert, search, update, delete database records.
+
+What is NOSQL: Non relation database that does not require fixed schema, avoids joins, and is easy to scale. NoSQL database is used for distributed data stores with humongous data storage needs. NoSQL is used for Big data and real-time web apps. For example companies like Twitter, Facebook, Google that collect terabytes of user data every single day.
+
+
+Topic 3: SQL data normalization/ de-normalization.
